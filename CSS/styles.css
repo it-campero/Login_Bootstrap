@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+/* CONTAINER PRINCIPAL */
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* REDES SOCIALES */
+.redes-sociales {
+  gap: 50px;
+  cursor: pointer;
+}
+/* VIDEO PRINCIPAL */
+.flex-video {
+  width: 100vw;
+  height: 35vh;
+  object-fit: cover;
+  box-shadow: 0 0 100px rgb(16, 34, 155);
+}
+/* FORMULARIO LOGIN CONTAINER */
+.flex-form {
+  margin-top: 30px;
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* FORMULARIO LOGIN */
+.flex-form input {
+  background: none;
+}
+/* BOTON GOOGLE */
+.flex-btn {
+  display: flex;
+  width: 200px;
+}
+/* ICONO-GOOGLE */
+.flex-btn > picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 7px;
+  width: 30px;
+  height: 30px;
+}
+/* IMAGEN BOTON FONDO GOOGLE COLOR BLANCO */
+.flex-img {
+  width: 25px;
+  height: 25px;
+}
+/* SEPARADORES */
+.flex-hr {
+  margin: auto;
+  width: 30%;
+}
+/* matiasrheinze@gmail.com */
